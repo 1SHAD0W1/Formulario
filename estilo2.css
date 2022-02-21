@@ -7,7 +7,6 @@ body
     background-image: linear-gradient(to right, rgb(90, 219, 144), rgb(99, 252, 226));
     font-family: cursive;
     width: 15%;
-
 }
 
 legend
@@ -22,12 +21,10 @@ legend
 fieldset
 {
     border: 3px solid rgb(0, 0, 0);
-   
 }
 
 .corpo
 {
-
     position: absolute;
     top: 50%;
     left: 50%;
@@ -41,9 +38,7 @@ fieldset
 
 .dados
 {
-    position: relative;
- 
-    
+    position: relative;   
 }
 
 .dad
@@ -63,15 +58,13 @@ fieldset
     left: 0%;
     pointer-events: none;
     transition: .5s;
-
 }
 
 .dad:focus ~ .per,
 .dad:valid ~ .per
 {
     top: -20px;
-    font-size: 10px;
-    
+    font-size: 10px;    
 }
 
 button
